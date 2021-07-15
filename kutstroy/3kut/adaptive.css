@@ -1,0 +1,113 @@
+@media screen and (max-width:320px) {
+    .logo-img {
+        width: 30%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    .flat {
+        width: 36%;
+    }
+    .line {
+        width:  99%;
+    }
+    .slider {
+        width: 70%;
+    }
+    datalist {
+        width: 70%;
+        font-size: 13px;
+    }
+    #rangeList-2 option {
+        display: inline;
+        width: 20px;
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:476px) {
+    .logo-img {
+        width: 30%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    .container {
+        margin: auto;
+        width: 100%;
+    }
+    .line {
+        width: 99%;
+    }
+    .flat {
+        width: 30%;
+        padding: 0 0 8% 0;
+    }
+    .flat-block {
+        margin: auto;
+    }
+    .slider {
+        width: 70%;
+    }
+    datalist {
+        width: 70%;
+    }
+    .sliderPercent {
+        font-size: 8px;
+        margin-top: 0.2%;
+    }
+    #rangeList-2 option {
+        display: inline;
+        width: 20px;
+        font-size: 8.5px;
+    }
+    
+}
+@media screen and (max-width:769px) {
+    .logo-img {
+        width: 30%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    .container {
+        margin: auto;
+        width: 99%;
+    }
+    .flat {
+        width: 30%;
+        padding: 0 0 8% 0;
+    }
+    .line {
+        width: 99%
+    }
+    .flat-block {
+        margin: auto;
+    }
+    .slider {
+        width: 70%;
+    }
+    datalist {
+        width: 70%;
+    }
+}
+@media screen and (max-width:992px) {
+    .logo-img {
+        width: 26%;
+        position: relative;
+        display: block;
+        margin: auto    ;
+    }
+    .flat {
+        width: 22%;
+        padding: 0 0 8% 0;
+    }
+    .line {
+        width: 99%;
+    }
+    .slider {
+        width: 70%;
+    }
+    datalist {
+        width: 70%;
+    }
+}

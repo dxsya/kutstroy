@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <title>Кут</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/logo.png" class="logo-img" alt="logo">
+        <div class="flat-block">
+            <img src="img/flat.png" class="flat" alt="flat">
+            <span class="flat-text">3-комнатная квартира от 70м<sup>2</sup></span> <br>
+            <span class="flat-price">от 36 400$</span>
+            <hr noshade class="line">    
+        </div>
+        <div class="calculator">
+            <div class="slider-term">
+                <div class="term">Выберите срок рассрочки</div>
+                <input type="range" min="1" max="6" value="1" class="slider" id="year" >
+                <datalist id="rangeList-1">
+                    <option value="1" label="1"></option>
+                    <option value="2" label="2"></option>
+                    <option value="3" label="3"></option>
+                    <option value="4" label="4"></option>
+                    <option value="5" label="5"></option>
+                    <option value="6" label="6"></option>
+                </datalist>
+            </div>
+            <div class="slider-contribution">
+                <div class="contribution">Первоначальный взнос</div>
+                <input type="range" min="0" max="10" value="0" id="percent" class="slider" >
+                <datalist class="sliderPercent" id="rangeList-2">
+                        <option value="0" label="0%">
+                        <option value="1" label="10%">
+                        <option value="2" label="20%">
+                        <option value="3" label="30%">
+                        <option value="4" label="40%">
+                        <option value="5" label="50%">
+                        <option value="6" label="60%">
+                        <option value="7" label="70%">
+                        <option value="8" label="80%">
+                        <option value="9" label="90%">
+                        <option value="15" label="100%">
+                </datalist>
+            </div>
+            <button class="button" id="solve">
+                    Расчитать
+            </button>
+            <span class="payment">Ежемесячный платеж</span>
+            <span class="price" id="result">0$</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
